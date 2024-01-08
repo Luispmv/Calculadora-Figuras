@@ -1,0 +1,26 @@
+<svg width="530" height="718" viewBox="0 0 530 718" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="388" cy="415" r="100" fill="black"/>
+<rect x="209" y="472" width="96" height="180" fill="#EFD98C" stroke="black" stroke-width="10"/>
+<circle cx="100" cy="240" r="100" fill="black"/>
+<circle cx="264" cy="390" r="195" fill="#EFD98C" stroke="black" stroke-width="10"/>
+<circle cx="186" cy="350" r="45" fill="#EFD98C" stroke="black" stroke-width="10"/>
+<circle cx="328" cy="350" r="45" fill="#EFD98C" stroke="black" stroke-width="10"/>
+<rect x="226" y="345" width="62" height="10" fill="black"/>
+<rect x="155" y="290" width="62" height="10" fill="black"/>
+<rect x="297" y="290" width="62" height="10" fill="black"/>
+<rect x="368" y="345" width="62" height="10" fill="black"/>
+<rect x="84" y="345" width="62" height="10" fill="black"/>
+<rect x="262" y="300" width="177" height="10" transform="rotate(90 262 300)" fill="black"/>
+<rect x="257" y="467" width="29" height="10" fill="black"/>
+<circle cx="328" cy="350" r="10" fill="black"/>
+<circle cx="186" cy="350" r="10" fill="black"/>
+<path d="M347 494C347 500.566 345.008 507.068 341.139 513.134C337.269 519.2 331.597 524.712 324.447 529.355C317.297 533.998 308.809 537.681 299.467 540.194C290.125 542.707 280.112 544 270 544C259.888 544 249.875 542.707 240.533 540.194C231.191 537.681 222.703 533.998 215.553 529.355C208.403 524.712 202.731 519.2 198.861 513.134C194.992 507.068 193 500.566 193 494L270 494H347Z" fill="black"/>
+<circle cx="480" cy="350" r="50" fill="black"/>
+<circle cx="430" cy="240" r="100" fill="black"/>
+<circle cx="278" cy="190" r="100" fill="black"/>
+<circle cx="372" cy="140" r="100" fill="black"/>
+<circle cx="230" cy="100" r="100" fill="black"/>
+<circle cx="104" cy="140" r="100" fill="black"/>
+<circle cx="178" cy="190" r="100" fill="black"/>
+<path d="M71 718C71 671.056 109.056 633 156 633H372C418.944 633 457 671.056 457 718H71Z" fill="black"/>
+</svg>

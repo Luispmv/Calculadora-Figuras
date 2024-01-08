@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangulo</title>
+    <link rel="icon" href="/src/images/logo calculator.svg">
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-[#EFD98C] grid place-items-center gap-8 h-screen">
+    <main id="initial-content" class="grid place-items-center gap-8">
+        <h1 class="text-center text-[41px] stroke-gray-400 font-extrabold text-[#EFD98C] shadowh1 sm:text-[64px] lg:text-[85px] font-sans">Area del triangulo</h1>
+        <img src="./images/polygon-mobile.svg" alt="">
+        <form action="" class="grid gap-20 w-full place-items-center sm:w-[500px]">
+            <label for="" class="grid gap-5 w-full place-items-center">
+                <input id="base" class="text-center w-11/12 h-[50px] bg-[#EFD98C] placeholder:text-black border-b-4 border-black font-bold outline-none" type="number" placeholder="Ingresa la base">
+                <input id="altura" class="text-center w-11/12 h-[50px] bg-[#EFD98C] placeholder:text-black border-b-4 border-black font-bold outline-none" type="number" placeholder="Ingresa la altura">
+            </label>
+            <button id="EnviarTriangulo" class="h-[50px] w-11/12 bg-black text-white">Enviar</button>
+        </form>
+    </main>
+    <div id="results-container" class="hidden w-full sm:w-[500px] grid place-items-center gap-20">
+        <header class="grid place-items-center gap-8">
+            <img src="./images/polygon-mobile.svg" alt="">
+            <h1 id="text-results" class="text-center text-[41px] stroke-gray-400 font-extrabold text-[#EFD98C] shadowh1 sm:text-[60px] font-sans">Area del Triangulo: 125</h1>
+        </header>
+        <a href="./index.html" class="flex justify-center items-center h-[50px] w-11/12 bg-black text-white">Regresar</a>
+    </div>
+    <script src="./triangulo.js"></script>
+</body>
+</html>

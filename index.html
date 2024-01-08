@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/logo calculator.svg">
+  <link href="./output.css" rel="stylesheet">
+  <title>Figure calculator</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    img{
+        transition: all 500ms ease-in-out;
+    }
+    img:hover{
+        transition: all 500ms ease-in-out;
+        transform: scale(1.1);
+        z-index: 1;
+    }
+</style>
+<body class="bg-[#EFD98C] p-0 m-0 grid gap-8 place-items-center lg:gap-16">
+    <main class="mx-5 grid gap-8 place-items-center">
+        <header class="grid gap-8">
+            <h1 class="text-center text-[41px] stroke-gray-400 font-extrabold text-[#EFD98C] shadowh1 sm:text-[64px] lg:text-[85px] font-sans">FIGURES CALCULATOR</h1>
+            <button class="w-[235px] justify-between font-custom font-normal text-white bg-black flex py-3 px-6 rounded-full place-self-center">Elige una figura <img src="./images/arrow-down.svg" alt=""></button>
+        </header>
+        <section class="grid place-items-center w-[288px] sm:hidden">
+            <a class="place-self-end polygon-position cursor-pointer" href="./triangulo.html"><img src="./images/polygon-mobile.svg" alt=""></a>
+            <a class="place-self-center cursor-pointer" href="./cuadrado.html"><img src="./images/square-mobile.svg" alt=""></a>
+            <a class="place-self-start circle-position cursor-pointer" href="./circulo.html"><img src="./images/circle-mobile.svg" alt=""></a>
+        </section>
+        <section class="hidden sm:grid sm:w-[600px] lg:hidden">
+            <a href="./circulo.html"><img class="cursor-pointer" src="./images/circle-tablet.svg" alt=""></a>
+            <a class="square-tablet-m place-self-center cursor-pointer" href="./cuadrado.html"><img class="" src="./images/square-tablet.svg" alt=""></a>
+            <a class="place-self-end polygon-tablet-m cursor-pointer" href="./triangulo.html"><img class="" src="./images/polygon-tablet.svg" alt="">
+            </a>
+        </section>
+        <section class="hidden lg:grid lg:w-full lg:relative">
+            <a href="./cuadrado.html"><img class="cursor-pointer" src="./images/square-desktop.svg" alt=""></a>
+            <a href="./circulo.html"><img class="circle-desktop-m cursor-pointer" src="./images/circle-desktop.svg" alt=""></a>
+            <a href="./triangulo.html"><img class="absolute top-0 right-0 cursor-pointer" src="./images/polygon-desktop.svg" alt=""></a>
+        </section>
+    </main>
+    <footer>
+        <img class="" src="./images/me-mobile.svg" alt="">
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
